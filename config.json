@@ -1,0 +1,16 @@
+{
+  "servers": [
+    {
+      "bot_token": "token",
+      "server_ip": "ipv4",
+      "server_query_port": 20685
+    },
+    {
+      "bot_token": "token",
+      "server_ip": "ipv4",
+      "server_query_port": 20686
+    }
+  ],
+  "empty_server_status": "on an empty server",
+  "server_status": "on {players_count} / {players_max_count} players"
+}
