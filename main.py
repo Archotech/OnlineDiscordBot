@@ -11,7 +11,7 @@ with open('config.json', 'r', encoding='utf-8') as config_file:
 
 
 async def start_bot(bot_token, server_ip, server_query_port):
-    bot = commands.Bot(command_prefix="!!!", help_command=None, intents=Intents.all())
+    bot = commands.InteractionBot(intents=Intents.none())
 
     @tasks.loop(seconds=15)
     async def update_status():
