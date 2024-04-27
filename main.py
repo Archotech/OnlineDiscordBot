@@ -51,7 +51,8 @@ async def main():
     async_tasks = []
     for server_config in config['servers']:
         async_tasks.append(
-            start_bot(server_config['bot_token'], server_config['server_ip'], server_config['server_query_port']))
+            start_bot(server_config['bot_token'], server_config['server_ip'], server_config['server_query_port'])
+        )
     await asyncio.gather(*async_tasks)
 
 

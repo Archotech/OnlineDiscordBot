@@ -32,6 +32,6 @@ To use it you need to specify your server data in config.json file.
 * disnake library;
 * python-a2s library.
 
-> pip install disnake
+> ```pip install disnake```
 
-> pip install python-a2s
+> ```pip install python-a2s```
